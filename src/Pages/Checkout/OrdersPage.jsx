@@ -1,4 +1,4 @@
-import { Header } from "../Components/Header";
+import { Header } from "../../Components/Header";
 import "./OrdersPage.css";
 
 export function OrdersPage() {
