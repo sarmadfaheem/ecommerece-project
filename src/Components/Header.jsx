@@ -1,5 +1,6 @@
 import { NavLink } from "react-router";
 import "./header.css";
+import MainLogo from "../assets/images/logo-white.png";
 
 export function Header() {
   return (
@@ -7,7 +8,7 @@ export function Header() {
       <div className="header">
         <div className="left-section">
           <NavLink to="/" className="header-link">
-            <img className="logo" src="images/logo-white.png" />
+            <img className="logo" src={MainLogo} />
             <img className="mobile-logo" src="images/mobile-logo-white.png" />
           </NavLink>
         </div>
