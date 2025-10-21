@@ -80,7 +80,7 @@ export function OrdersPage({ cart }) {
                         </div>
 
                         <div className="product-actions">
-                          <a href="/tracking">
+                          <a href="">
                             <button className="track-package-button button-secondary">
                               Track package
                             </button>
